@@ -5,3 +5,45 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+
+body{
+  /* background-image: url("/bg.jpg"); */
+  background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: aliceblue;
+  background-size: cover;
+}
+
+
+.container{
+  width: 80vw;
+  height: 90vh;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.559), rgba(128, 0, 128, 0.548));
+  backdrop-filter: blur(19px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.604);
+  display: flex;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(rgb(39, 39, 143), rgba(128, 0, 128, 0.548));
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1d1515c0; /* Thumb background color */
+  border-radius: 3px; /* Rounded corners */
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e49c1daa; /* Hover color */
+}
