@@ -83,15 +83,7 @@ const Detail = () => {
               <img src="./download.png" alt="" className='icon'/>
             </div>
             {/* photo item end */}
-           {/* photo item starts */}
-           <div className="photoItem">
-              <div className="photoDetail">
-              <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="" />
-              <span>pgoto-20233.png</span>
-              </div>
-              <img src="./download.png" alt="" className='icon'/>
-            </div>
-            {/* photo item end */}
+           
           </div>
         </div>
         <div className="option">
